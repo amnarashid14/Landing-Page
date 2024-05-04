@@ -1,0 +1,206 @@
+*{
+margin: 0;
+padding: 0px;
+box-sizing: border-box;
+/* font-size: 35px; */
+}
+a , button{
+cursor: pointer;}
+/*************************************NAVBAR*************************************************/
+#navbar{
+display: flex;
+justify-content: space-evenly;
+font-size: 17px;}
+.nav{
+height: 35px;
+border: 2px solid rgb(236, 18, 101);
+background-color: rgb(236, 18, 101);
+border-radius: 9px;
+color: #ffffff;
+padding: 2px 2px 2px 2px;
+/* top right bottom left */
+}
+.nav-items{
+height: 25px;
+width: 7%;
+text-align: center;
+border-radius: 5px;
+}
+.nav-items:hover:hover{
+background-color: rgb(255, 55, 132);
+color:#ffffff;
+}
+
+/******************************************HEADER**********************************************/
+#header{
+height: 500px;
+width: 500px;
+margin: 5px;
+}
+
+.boldtext{
+text-align: center;
+}
+.description{
+font-size: 25px;
+color: rgba(98, 95, 95, 0.903);
+text-align: center;
+}
+
+/**************************************SIDE PICTURE 1****************************************/
+#sidepic{
+    height: 300px;
+    width: 1000px;
+    margin: 1px 74px 1px 10px;
+    
+    }
+
+    /************************************MAIN TEXT DIV 1************************************/
+.main{
+display: flex;
+justify-content: space-evenly;
+height: 400px;
+width: 85%;
+margin-top:100px;
+/* width: 50rem; */
+}
+
+
+#maintext{
+width: 80%;
+height: 600px;
+
+margin-left: 94px;
+/*border: 2px solid black;
+ margin: 1px 2px 1px 3px; */
+}
+.mdescription{
+        font-size: 25px;
+        color: rgba(98, 95, 95, 0.903);
+        text-align: center;
+        width: 400px;
+    }
+
+.sdiv{
+background-color: rgb(231, 147, 195);
+border-radius: 10px;
+font-size: 20px;}
+.mdiv{
+    background-color: rgb(201, 200, 200);
+border-radius: 10px;
+height: 30px;
+padding: 4px;
+font-size: 20px;
+}
+/*********************************RESPONSIVE****************/
+#resp{
+margin-top: 300px;
+text-align: center;
+}
+#respo{
+text-align: center;
+margin: 9px 20px 3px 20px ;
+}
+.res{
+display: flex;
+justify-content: space-around;
+margin-top: 6%;
+
+}
+
+.div-res{
+    width: 130px; 
+    background-color: beige;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+.div-res:hover{
+background-color: rgb(255, 230, 240);
+}
+#mainpic{
+height: 120px;
+width: 90%;
+margin: 5px 2px 5px 67px;
+
+}
+
+/* **********************************************ANOTHER MAIN */
+.mainn{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 85%;
+    margin-top: 500px;}
+#leftpic{
+    height: 300px;
+    width: 1000px;
+    margin: 5px 20px 5px 100px;
+
+}
+#rightext{
+    width: 600px;
+    height: 300px;
+     margin: 1px 10px 1px 74px;
+
+    }
+
+    .div-resp{
+        width: 100px;
+        background-color: beige;
+        height:50px;
+        padding : 1%;
+        border-radius: 20px;
+    }
+    /************************************ANOTHER RESPONSIVENESS*************************/
+.res-but{
+height: 50px;
+}
+    .div-resp{
+height: 100px;
+padding: 5px 100px 5px 100px;
+    }
+
+
+/*******************************************FOOTER**************************************/
+
+    .footer{
+        width: 100%;
+        height: 50%;
+        background-color: rgb(254, 220, 239);
+        margin-top: 40%;
+    }
+    #button{
+    
+        width: 20vw;
+        height: 30px;
+        border-radius: 10px;
+        color: rgb(236, 18, 101);
+        margin: 3% 0% 3% 45%;
+        border: 0.5px solid rgb(236, 18, 101);
+    }
+    .ft1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    h4{
+        color: rgb(236, 18, 101);
+    }
+    a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    h5{
+        color: rgb(236, 18, 101);
+        font-size: 18px;
+    }
+    h3{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    #button:hover{
+background-color:rgb(231, 234, 234)}
